@@ -15,6 +15,7 @@ contract Staker {
   uint256 public withdrawalDeadline = block.timestamp + 120 seconds;
   uint256 public claimDeadline = block.timestamp + 240 seconds;
   uint256 public currentBlock = 0;
+  
 
   // Events
   event Stake(address indexed sender, uint256 amount);
